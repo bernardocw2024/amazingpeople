@@ -1,0 +1,15 @@
+{
+  "name": "amazingpeople",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Collect hotel guest reviews via WhatsApp and funnel happy guests to Google & TripAdvisor.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test test/smoke.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
