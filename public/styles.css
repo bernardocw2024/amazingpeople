@@ -135,7 +135,8 @@ h2 { font-size: 1.2rem; margin: 0 0 14px; }
 }
 
 .qr { text-align: center; margin-top: 18px; }
-.qr img { background: #fff; padding: 10px; border-radius: 12px; }
+.qr-code { display: inline-block; background: #fff; padding: 10px; border-radius: 12px; line-height: 0; }
+.qr-code svg { width: 200px; height: 200px; display: block; }
 
 .stat-big { display: flex; align-items: baseline; gap: 10px; margin-bottom: 16px; }
 .avg { font-size: 3rem; font-weight: 800; color: var(--gold); line-height: 1; }

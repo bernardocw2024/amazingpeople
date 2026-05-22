@@ -1,0 +1,12 @@
+# Render.com blueprint — runs the app as a persistent Node server.
+# Recommended over serverless: feedback/ratings persist while the instance is up.
+services:
+  - type: web
+    name: amazingpeople
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
